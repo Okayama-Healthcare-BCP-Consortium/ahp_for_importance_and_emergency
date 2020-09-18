@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>
+          AHPデモ
+        </title>
+    </head>
+    <body>
+        <h1>
+          AHPデモ
+        </h1>
+        <h3>結果一覧</h3>
+          <table>
+            <tr>
+              <th>業務名</th>
+              <th>確率</th>
+            </tr>
+            {% for task, score in result %}
+            <tr>
+              <td>{{ task }}</td>
+              <td>{{ score }}</td>
+            </tr>
+            {% endfor %}
+          </table>
+        <button type="button" onclick="history.back()">戻る</button>
+    </body>
+</html>
