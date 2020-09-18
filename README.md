@@ -1,4 +1,4 @@
-数理計画問題(Mathematical programming problem)を用いた2軸Importance, Emergencyにおける優先業務選択補助ソフトウェア
+階層分析法(Analytic Hierarchy Process)を用いた2軸Importance, Emergencyにおける優先業務選択補助ソフトウェア
 ==============================
 
 ## Target
